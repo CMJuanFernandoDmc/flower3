@@ -45,6 +45,7 @@ body {
 }
 .flower--1 {
   animation: moving-flower-1 4s linear infinite;
+  left: 10%;
 }
 .flower--1 .flower__line {
   height: 70vmin;
@@ -69,7 +70,7 @@ body {
   animation: blooming-leaf-left var(--fl-speed) 2s backwards;
 }
 .flower--2 {
-  left: 50%;
+  left: 90%;
   transform: rotate(20deg);
   animation: moving-flower-2 4s linear infinite;
 }
@@ -90,7 +91,7 @@ body {
   animation: blooming-leaf-left var(--fl-speed) 1.3s backwards;
 }
 .flower--3 {
-  left: 50%;
+  left: 80%;
   transform: rotate(-15deg);
   animation: moving-flower-3 4s linear infinite;
 }
